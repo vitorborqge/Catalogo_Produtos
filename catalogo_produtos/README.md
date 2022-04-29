@@ -1,4 +1,4 @@
-# projeto_catalogo
+# catalogo_produtos
 Um site de catálogo de produtos responsivo.
 
 Mais informações na seção: Sobre o site
