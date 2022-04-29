@@ -1,0 +1,26 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;700&display=swap');
+
+/*Resets*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol, li{
+    list-style: none;
+}
+
+/*Variáveis*/
+:root{
+    /*Cores*/
+    --branco: #F5F8FD;
+    --preto: #192030;
+    --cinza: #606775;
+    --cinza-claro: #b9b9b9;
+    
+    /*Fontes*/
+    --fonte-padrao: 'Open Sans', sans-serif;
+    --fonte-destaque: 'Prompt', sans-serif;
+}

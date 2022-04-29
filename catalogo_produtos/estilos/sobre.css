@@ -1,0 +1,19 @@
+main{
+    font-family: var(--fonte-padrao);
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+}
+h2{
+    font-size: 2em;
+    margin: .5em 0;
+}
+p{
+    font-size: 1em;
+    padding: .2em 0;
+}
+main a{
+    color: black;
+    padding: .2em;
+    background-color: rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,243 @@
+@media (max-width: 1024px){
+    body{
+        font-size: 90%;
+    }
+
+    .home-banner{
+        flex-direction: column;
+        text-align: center;
+    }
+    .home-text > p{
+        text-align: center;
+    }
+    .home-banner img{
+        margin: 1.5em 0;
+    }
+    .main-content{
+        margin-top: 20vh;
+    }
+    .product-link-item{
+        flex-basis: 200px;
+    }
+    .product-link-item img{
+        width: 180px;
+    }
+    .product-title{
+        text-align: center;
+    }
+    .product-title::after{
+        margin-top: .5em;
+        display: block;
+        width: 100%;
+    }
+    .product.p01,
+    .product.p02,
+    .product.p03,
+    .product.p04{
+        flex-direction: column;
+        
+        flex: 1 1 320px;
+    }
+
+    .bones .product.p04{
+        height: 350px;
+    }
+}
+
+@media(max-width: 768px){
+    .main-content{
+        margin-top: 100px;
+    }
+    .home{
+        margin-bottom: 200px;
+    }
+    .product-links{
+        flex-direction: column;
+        gap: 2em;
+        width: 60%;
+        margin: auto;
+    }
+    .product .product-text-wrapper{
+        padding: 1em;
+        line-height: 4em;
+    }
+
+    .product.p01,
+    .product.p02,
+    .product.p03,
+    .product.p04{
+        flex-basis: 290px;
+    }
+    .product.p05{
+        flex-direction: column;
+    }
+    .bones img{
+        width: 270px;
+    }
+    .bones .product.p04{
+        height: 400px;
+    }
+    .bones .product.p05{
+        height: auto;
+    }
+    .input-botao{
+        opacity: 1;
+        position: relative;
+        margin: auto;
+        bottom: 0;
+        left: 0;
+        transform: none;
+    }
+    .footer{
+        height: auto;
+        padding: 2em;
+    }
+    .footer .media{
+        height: auto;
+        gap: 2em;
+    }
+    .footer-wrapper{
+        flex-direction: column;
+        gap: 2em;
+    }
+}
+@media(max-width: 667px){
+    
+    .header-wrapper{
+        margin: 0 2em;
+    }
+
+    /*Menu Mobile*/
+    .menu{
+        display: none;
+    }
+    .one,
+    .two,
+    .three{
+        background-color: var(--branco);
+        height: 5px;
+        width: 100%;
+        border-radius: 5px;
+        margin: 6px auto;
+
+        transition-duration: 0.5s;
+    }
+    .menu-mobile{
+        width: 40px;
+        height: 30px;
+    }
+    /*Menu fullscreen*/
+    .menu-section{
+        height: 0vh;
+        width: 0vh;
+        transition: width 0.3s linear;
+        position: relative;
+        top: -1em;
+        right: 3em;
+    }
+   .menu-section.on{
+       
+       position: absolute;
+       top: 0;
+       right: 0;
+       background-color: var(--preto);
+       width: 100vw;
+       height: 100vh;
+       z-index: 99;
+       overflow: hidden;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .menu-section.on .menu{
+       display: block;
+   }
+   .menu-section.on .menu-mobile{
+       position: absolute;
+       left: 50px;
+       top: 50px;
+   }
+   .menu-section.on .menu-mobile .one{
+       transform: rotate(45deg) translate(7px, 7px);
+   }
+   .menu-section.on .menu-mobile .two{
+        opacity: 0;
+   }
+   .menu-section.on .menu-mobile .three{
+        transform: rotate(-45deg) translate(8px, -9px);
+   }
+   .menu-section.on .menu ul{
+       display: block;
+       text-align: center;
+   }
+   .menu-section.on .menu ul a{
+       text-transform: uppercase; 
+       transition-duration: 0.5s;
+       font-size: 2em;
+       line-height: 2em;
+   }
+
+   .menu-section.on .menu ul a::after,
+   .menu-section.on .menu ul a#first::before{
+       content: '';
+       margin: 1em;
+       display: block;
+       height: 1px;
+       background-color: var(--branco);
+       width: 100vw;
+   } 
+
+    .main-content{
+        margin-top: 15vh;
+    }
+    .product-links img{
+        width: 150px;
+    }
+    .product.p04{
+        flex-basis: 350px;
+    }
+    
+}
+@media(max-width: 500px){
+    .header-wrapper{
+        margin: 0;
+        padding: 1em 2em;
+    }
+    .home{
+        height: 85vh;
+        margin-bottom: 100px;
+    }
+    .home-text > h1{
+        font-size: 2.7em;
+    }
+    .home-text > h2{
+        font-size: 1.4em
+    }
+    .main-content{
+        margin: 0;
+    }
+    .footer{
+        font-size: 90%;
+    }
+}
+@media(max-width: 399px){
+    .home{
+        height: 100vh;
+    }
+}
+@media(max-width: 335px){
+    .home{
+        height: 85vh;
+        margin-bottom: 0;
+    }
+    .home-image{
+        display: none;
+    }
+    .product-link-item img{
+        width: 110px;
+    }
+    .bones img{
+        height: 170px;
+        width: auto;
+    }
+}

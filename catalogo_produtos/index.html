@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Seja casual, mas nunca vazio. Confira o catálogo de produtos da Casual Look!">
+
+    <link rel="shortcut icon" href="imagens/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/default.css">
+    <link rel="stylesheet" href="estilos/responsivo.css">
+    <title>Casual Look - Catálogo de produtos</title>
+
+</head>
+<body>
+        <div class="home" id="home">
+            
+            <div class="home-wrapper">
+                <header class="header">
+                    <div class="header-wrapper">
+                        <img src="imagens/logo.svg" alt="Logo Casual Look">
+
+                        <div class="menu-section">
+                            <nav class="menu-mobile">
+                                <div class="one"></div>
+                                <div class="two"></div>
+                                <div class="three"></div>
+                            </nav>
+                            <nav class="menu">
+                                <ul class="menu-itens">
+                                    <li>
+                                        <a href="#home" id="first" class="link-page">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#produtos" class="link-page">Produtos</a>
+                                        </li>
+                                    <li>
+                                        <a href="sobre.html" class="link-page">Sobre</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div><!--Menu cabeçalho-->
+                    </div>
+                </header><!--Cabeçalho-->
+                <div class="home-banner">
+                    <div class="home-text">
+                        <h2>Quem tem estilo faz moda</h2>
+                        <h1>Seja casual, mas nunca vazio</h1>
+                    </div>
+                    <div class="home-image">
+                        <picture>
+                            <source media="(max-width: 399px)" srcset="imagens/imagem-banner-399.png">
+                            <source media="(max-width: 500px)" srcset="imagens/imagem-banner-small.png">
+                            <source media="(max-width: 1024px)" srcset="imagens/imagem-banner-peq.png">
+                            <img src="imagens/imagem-banner.png" alt="Imagem do Banner">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div><!--Home-->
+
+        <main class="main-content" id="produtos">
+            <h2>Produtos à venda</h2>
+            <p id="instruction-text">Clique nos cards para navegar nas respectivas seções!</p>
+            <nav class="product-links">
+                <a class="product-link-item" href="#mochilas">
+                    <h3 class="product-link-item-title">Mochilas</h3>
+                    <img src="imagens/icone_mochila.svg" alt="Ícone de mochila">
+                </a>
+                <a class="product-link-item" href="#relogios">
+                    <h3 class="product-link-item-title">Relógios</h3>
+                    <img src="imagens/icone_relogio.svg" alt="Ícone de relógio" id="watch">
+                </a>
+                <a class="product-link-item" href="#bones">
+                    <h3 class="product-link-item-title">Bonés</h3>
+                    <img src="imagens/icone_bone.svg" alt="Ícone de boné">
+                </a>
+            </nav><!--Menu de produtos-->
+
+            <h3 class="product-title">Mochilas</h3>
+            <section class="products-container">
+                <div class="mochilas" id="mochilas">
+                    <div class="product p01">
+                        <img src="imagens/mochila01.png" alt="Mochila 1">
+                        <div class="product-text-wrapper">
+                            <p>Mochila de exemplo 1</p>
+                            <div class="product-price">
+                                R$ 89,90
+                            </div>
+                        </div>
+                        <input type='button' class="input-botao"></input>
+                    </div>
+                    <div class="product p02">
+                        <img src="imagens/mochila02.png" alt="Mochila 2">
+                        <div class="product-text-wrapper">
+                            <p>Mochila de exemplo 2</p>
+                            <div class="product-price">
+                                R$ 64,90
+                            </div>
+                        </div>
+                        <input type='button' class="input-botao"></input>
+                    </div>
+                    <div class="product p03">
+                        <img src="imagens/mochila03.png" alt="Mochila 3">
+                        <div class="product-text-wrapper">
+                            <p>Mochila de exemplo 3</p>
+                            <div class="product-price">
+                                R$ 130,00
+                            </div>
+                            
+                        </div>
+                        <input type='button' class="input-botao"></input>
+                    </div>
+                    <div class="product p04" >
+                        <img src="imagens/mochila04.png" alt="Mochila 4">
+                        <div class="product-text-wrapper">
+                            <p>Mochila de exemplo 4</p>
+                            <div class="product-price">
+                                R$ 79,90
+                            </div>
+                            
+                        </div>
+                        <input type='button' class="input-botao"></input>
+                    </div>
+                    <div class="product p05">
+                        <img src="imagens/mochila05.png" alt="Mochila 5">
+                        <div class="product-text-wrapper">
+                            <p>Mochila de exemplo 5</p>
+                            <div class="product-price">
+                                R$ 59,90
+                            </div>
+                            
+                        </div>
+                        <input type='button' class="input-botao"></input>
+                    </div>
+                </div><!--Mochilas-->
+
+                <h3 class="product-title">Relógios</h3>
+                <section class="products">
+                <div class="relogios" id="relogios">
+                    <div class="product p01">
+                        <img src="imagens/relogio01.png" alt="Relógio 1">
+                        <div class="product-text-wrapper">
+                            <p>Relógio de exemplo 1</p>
+                            <div class="product-price">
+                                R$ 189,90
+                            </div>
+                            
+                        </div>
+                        <input type='button' class="input-botao"></input>
+                    </div>
+                    <div class="product p02">
+                        <img src="imagens/relogio02.png" alt="Relógio 2">
+                        <div class="product-text-wrapper">
+                            <p>Relógio de exemplo 2</p>
+                            <div class="product-price">
+                                R$ 399,90
+                            </div>
+                            
+                        </div>
+                        <input type='button' class="input-botao"></input>
+                    </div>
+                    <div class="product p03">
+                        <img src="imagens/relogio03.png" alt="Relógio 3">
+                        <div class="product-text-wrapper">
+                            <p>Relógio de exemplo 3</p>
+                            <div class="product-price">
+                                R$ 649,90
+                            </div>
+                            
+                        </div>
+                        <input type='button' class="input-botao"></input>
+                    </div>
+                    <div class="product p04" >
+                        <img src="imagens/relogio04.png" alt="Relógio 4">
+                        <div class="product-text-wrapper">
+                            <p>Relógio de exemplo 4</p>
+                            <div class="product-price">
+                                R$ 269,90
+                            </div>
+                            
+                        </div>
+                        <input type='button' class="input-botao"></input>
+                    </div>
+                    <div class="product p05">
+                        <img src="imagens/relogio05.png" alt="Relógio 5">
+                        <div class="product-text-wrapper">
+                            <p>Relógio de exemplo 5</p>
+                            <div class="product-price">
+                                R$ 200,00
+                            </div>
+                        </div>
+                        
+                        <input type='button' class="input-botao"></input>
+                    </div>
+                </div><!--Relógios-->
+
+                <h3 class="product-title">Bonés</h3>
+                <section class="products">
+                    <div class="bones" id="bones">
+                        <div class="product p01">
+                            <img src="imagens/bone01.png" alt="Boné 1">
+                            <div class="product-text-wrapper">
+                                <p>Boné de exemplo 1</p>
+                                <div class="product-price">
+                                    R$ 89,90
+                                </div>
+                                
+                            </div>
+                            <input type='button' class="input-botao"></input>
+                        </div>
+                        <div class="product p02">
+                            <img src="imagens/bone02.png" alt="Boné 2">
+                            <div class="product-text-wrapper">
+                                <p>Boné de exemplo 2</p>
+                                <div class="product-price">
+                                    R$ 64,90
+                                </div>
+                                
+                            </div>
+                            <input type='button' class="input-botao"></input>
+                        </div>
+                        <div class="product p03">
+                            <img src="imagens/bone03.png" alt="Boné 3">
+                            <div class="product-text-wrapper">
+                                <p>Boné de exemplo 3</p>
+                                <div class="product-price">
+                                    R$ 130,00
+                                </div>
+                                
+                            </div>
+                            <input type='button' class="input-botao"></input>
+                        </div>
+                        <div class="product p04" >
+                            <img src="imagens/bone04.png" alt="Boné 4">
+                            <div class="product-text-wrapper">
+                                <p>Boné de exemplo 4</p>
+                                <div class="product-price">
+                                    R$ 79,90
+                                </div>
+                                
+                            </div>
+                            <input type='button' class="input-botao"></input>
+                        </div>
+                        <div class="product p05">
+                            <img src="imagens/bone05.png" alt="Boné 5">
+                            <div class="product-text-wrapper">
+                                <p>Boné de exemplo 5</p>
+                                <div class="product-price">
+                                    R$ 59,90
+                                </div>
+                                
+                            </div>
+                            <input type='button' class="input-botao"></input>
+                        </div>
+                    </div>
+            </section><!--Produtos-->
+
+        </main><!--Conteúdo principal-->
+
+        <footer class="footer" id="footer">
+            <div class="footer-wrapper">
+                <a href="#"><img src="imagens/logo.svg" alt="Logo"></a>
+
+                <<div class="copyright">
+                    <span id="copy">&copy; Copyright vitorborqge| Todos os direitos reservados
+                        <div class="credits">
+                                     Feito por <a href="#">vitorborqge</a>
+                           </div>
+                    </span>
+                    <div class="social-media">
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>                   
+                    </div>
+                </div>
+                <div class="about">
+                    Sobre o site 
+                    <a href="sobre.html"><i class="fas fa-exclamation-circle"></a></i>
+                </div>
+            </div>
+        </footer><!--Rodapé-->
+
+        <script src="scripts/botaoProdutos.js"></script>
+        <script src="scripts/menuMobile.js"></script>
+        <!--Biblioteca de itens fontawesome-->
+        <script src="https://kit.fontawesome.com/d31b81b1c1.js" crossorigin="anonymous"></script>
+</body>
+</html>
