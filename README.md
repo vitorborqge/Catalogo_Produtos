@@ -7,7 +7,7 @@ Mais informações na seção: Sobre o site
 <a href="https://github.com/vitorborqge/Catalogo_Produtos">Acesse por meio deste link</a>
 
 <div>
-<img src="assets/img/1.jpeg">
+<img src="Catalogo.jpeg">
 </div>
 <div align="justify">    
 
